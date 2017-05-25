@@ -558,6 +558,14 @@ span.clients-name {
 .q-answer{
   padding-top:20px;
 }
+.faq-nav{
+	box-shadow:0 1px 14px rgba(0,0,0,0.1);
+	font-family:"Boing",sans-serif;
+	height:60px;
+  padding-left:24%;
+	position:relative;
+	z-index:10
+	}
 
 /*responsive*/
 @media screen and (max-width: 600px){
