@@ -574,6 +574,9 @@ span.clients-name {
     width:100vw;
     margin-left:0;
   }
+  .faq-nav{
+    display:none;
+  }
   .question-icon>a>p{
     position:absolute;
     text-align:center;
