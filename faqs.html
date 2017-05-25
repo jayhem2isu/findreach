@@ -559,9 +559,35 @@ window.onscroll = function () {
 };
     </script>
 
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/smooth-scroll.js"></script>
-
+    <!-- Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <iframe width="570" height="325" src="https://www.youtube.com/embed/JrFeBHRG74s" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close Video</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+    smoothScroll.init({
+      speed: 500,
+      easing: 'easeInOutCubic',
+      updateURL: false,
+      offset: 0,
+    });
+    </script>
+    <script>
+    jQuery('#videoModal').on('hidden.bs.modal', function(e) {
+      // do something...
+      jQuery('#videoModal iframe').attr("src", jQuery("#videoModal  iframe").attr("src"));
+    });
+    </script>
 </body>
 </html>

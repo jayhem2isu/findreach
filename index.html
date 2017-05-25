@@ -216,8 +216,6 @@
       <!--/.row-->
     </div>
   </div>
-<!-- rss -->
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://cyber.law.harvard.edu/rss/creativeCommonsRssModule.html" version="2.0">
 
 
 
@@ -239,11 +237,13 @@
          <div class="carousel-inner">
              <div class="item active text-center">
                  <img  src="img/post-1.1.gif" style="height:380px;border-radius: 10px;">
-                    <span></span><h2> <![CDATA[ <h2>You’ll Be Okay; You’ve Got This</h2> ]]></h2>
+                    <span></span><h2>
+                    You’ll Be Okay; You’ve Got This
+                    </h2>
              </div>
              <div class="item text-center ">
                  <img src="img/post-2.jpeg" style="height:380px;border-radius: 10px;">
-                 <span></span><h2><![CDATA[ <h2>You’ll Be Okay; You’ve Got This</h2> ]]></h2>
+                 <span></span><h2>5 symptoms that prove its time for a side hustle.</h2>
              </div>
              <div class="item text-center">
                  <img  src="img/post-3.jpeg" style="height:380px;border-radius: 10px;">
@@ -322,7 +322,7 @@
 
 </footer>
 
-  <!-- Modal -->
+<!-- Modal -->
   <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -335,12 +335,17 @@
       </div>
     </div>
   </div>
-
-
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-    <script src="js/smooth-scroll.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script>
+  smoothScroll.init({
+    speed: 500,
+    easing: 'easeInOutCubic',
+    updateURL: false,
+    offset: 0,
+  });
+  </script>
   <script>
   jQuery('#videoModal').on('hidden.bs.modal', function(e) {
     // do something...

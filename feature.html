@@ -272,20 +272,36 @@
 
   </footer>
 
-
+  <!-- Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <iframe width="570" height="325" src="https://www.youtube.com/embed/JrFeBHRG74s" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close Video</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.js"></script>
     <script src="js/smooth-scroll.js"></script>
-
     <script>
-    var texts = ['"The new millenial strategy."', '"Acorns simplified the often tedious and complex process of investing. But that does not mean the investment strategy is any less sopisticated"', '"The app makes investing effortless."', '"Acorns offers a unique solution to overcoming the mental barrier: I just do not have any money to invest"','"If you set aside $5 every couple of days, you would have set aside of $1000 in a year"'];
-    var count = 0;
-    function changeText() {
-      $("#example").text(texts[count]);
-      count < 3 ? count++ : count = 0;
-    }
-    setInterval(changeText, 5000);
+    smoothScroll.init({
+      speed: 500,
+      easing: 'easeInOutCubic',
+      updateURL: false,
+      offset: 0,
+    });
+    </script>
+    <script>
+    jQuery('#videoModal').on('hidden.bs.modal', function(e) {
+      // do something...
+      jQuery('#videoModal iframe').attr("src", jQuery("#videoModal  iframe").attr("src"));
+    });
+    </script>al(changeText, 5000);
     </script>
 
     <script>
