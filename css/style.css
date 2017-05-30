@@ -19,7 +19,9 @@ p {
 a:focus {
   outline: none !important;
 }
-
+.icon-bar{
+  background-color: white;
+}
 
 .topnav {
   font-size: 17px;

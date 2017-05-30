@@ -359,7 +359,7 @@ p.copyright {
   position: relative;
   height:110vh;
   top:0;
-  width:100vw;
+  width:100%;
   /*background-color: #0087BD;*/
     background-image: url(../img/intro-bg.jpg);
     background-size: cover;
@@ -497,7 +497,7 @@ p.copyright {
 .third-section{
   margin-top:130px;
   min-height:110vh;
-  width:100vw;
+  width:100%;
   background: -webkit-linear-gradient(left,#E424E1,#6563A4);
   background:linear-gradient(to right,#E424E1,#6563A4);
 }
@@ -711,7 +711,7 @@ a.click:hover{
 @media screen and (max-width: 600px){
   .steps-in{
     display:block;
-    margin-top:12vh;
+    margin-top:9vh;
   }
   .first-section{
     margin-bottom: 30vh;
@@ -778,11 +778,11 @@ a.click:hover{
 
   #steps{
 
-    width:100vw;
+    width:100%;
     left:0;
   }
   #steps>div>div>img{
-    left:3vw;;
+    left:0vw;;
     height:300px;
     width:70vw;
   }
@@ -809,7 +809,7 @@ a.click:hover{
     display:none;
 }
 .third-section{
-  margin-top: 0;
+  margin-top: 16vh;
 }
 .extra-features{
   padding:13px;
@@ -844,7 +844,7 @@ a.click:hover{
 }
 .inner-box-header>h3{
   text-align: center;
-  width:100vw;
+  width:100%;
   font-size:18px;
   line-height:25px;
 }
@@ -1000,7 +1000,7 @@ a.click:hover{
 
   #steps{
 
-    width:100vw;
+    width:100%;
     left:0;
   }
   #steps>div>div>img{
@@ -1059,14 +1059,14 @@ a.click:hover{
   margin-left:0;
 }
 .inner-box-header>h1{
-  width:100vw;
+  width:100%;
   text-align:center;
   font-size:36px;
   line-height: 43px;
 }
 .inner-box-header>h3{
   text-align: center;
-  width:100vw;
+  width:100%;
   font-size:18px;
   line-height:25px;
 }
@@ -1119,7 +1119,7 @@ a.click:hover{
 }
 .pre-press>div>img{
   height:300px;
-  width: 100vw;
+  width: 100%;
   margin-left:0;
 }
 .serious-security{
