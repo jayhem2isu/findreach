@@ -709,6 +709,17 @@ a.click:hover{
 }
 /*responsive*/
 @media screen and (max-width: 600px){
+
+  .navbar-toggle{
+    margin-top:3vh;
+  }
+  #myNavbar{
+    background-color: #888;
+  }
+  #myTopnav:hover{
+    background-color: #888;
+  }
+
   .steps-in{
     display:block;
     margin-top:9vh;
