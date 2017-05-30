@@ -715,6 +715,10 @@ a.click:hover{
   }
   #myNavbar{
     background-color: #888;
+    overflow: visible;
+    height:auto;
+    width:100vw;
+    margin-left:-7vw;
   }
   #myTopnav:hover{
     background-color: #888;
