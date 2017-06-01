@@ -547,6 +547,7 @@ q.answer{
   }
   #myNavbar{
       width:100vw;
+      background-color: #888;
   }
   #myNavbar>ul>li{
     width:60vw;
@@ -681,6 +682,9 @@ q.answer{
   font-size: 0.9em;
   margin-top: 3px;
 }
+footer{
+  height:auto;
+}
 .footer a{
   font-size: 0.8em;
   color:#888;
@@ -689,6 +693,7 @@ q.answer{
   margin-right: 10px;
   font-size: 0.6em;
 }
+
 
 .features-video{
   height: 190px;
