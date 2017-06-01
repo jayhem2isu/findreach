@@ -181,10 +181,7 @@ footer a, footer a:hover {
 p.copyright {
   margin: 15px 0 0;
 }
-.dload {
-  border: 1px solid #fff;
-  border-radius: 5px;
-}
+
 .intro-form {
   margin: 4em 0 1em;
 }
@@ -406,7 +403,7 @@ p.copyright {
 }
 .second-section{
   position:relative;
-  min-height:110vh;
+  min-height:100vh;
   width:100%;
   background-color: white;
 }
@@ -425,8 +422,8 @@ p.copyright {
 .slider-text>div{
   padding-bottom:110px;
   min-height:100px;
-
 }
+
 #steps>div>div>img{
   padding-left:30%;
 }
@@ -482,9 +479,7 @@ p.copyright {
   border: 1px solid #fff;
   border-radius: 5px;
 }
-.dload:hover{
-  opacity: 0.7;
-}
+
 
 .icon{
   padding-top: 19px;
@@ -502,7 +497,7 @@ p.copyright {
   background:linear-gradient(to right,#E424E1,#6563A4);
 }
 .extra-features{
-  padding-top: 120px;
+  padding-top: 100px;
 
 }
 .extra-f-header{
@@ -714,11 +709,16 @@ a.click:hover{
     margin-top:3vh;
   }
   #myNavbar{
-    background-color: #888;
-    overflow: visible;
-    height:auto;
-    width:100vw;
-    margin-left:-7vw;
+      width:100vw;
+      overflow: visible;
+      height:auto;
+  }
+  #myNavbar>ul>li{
+    width:60vw;
+    padding-left: 10vw;
+  }
+  #myNavbar>ul>li:hover{
+    color:black;
   }
   #myTopnav:hover{
     background-color: #888;

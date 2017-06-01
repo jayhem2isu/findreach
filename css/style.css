@@ -184,6 +184,7 @@ p.copyright {
   border: 1px solid #fff;
   border-radius: 5px;
 }
+
 .intro-form {
   margin: 4em 0 1em;
 }
@@ -523,51 +524,21 @@ span.clients-name {
   position:relative;
   padding-top:20vh;
 }
-.icon-section{
-  width:100vw;
-
-}
-.question-icon{
-  position:relative;
-  display:inline-flex;
-
-/*
-  background-image: url(../img/file.png);
-  background-size: contain;
-  background-repeat: no-repeat;*/
-  width:25vw;
-  margin-top:20vh;
-  margin-bottom: 10vh;
-  margin-left: 7.43%;
-  height:40vh;
-}
-.question-icon>a>img{
-  margin-left:30%;
-}
-.question-icon>a>img:hover, .question-icon>a>img:active
-{
-    cursor:pointer;
-    transform: rotate(360deg);
-    transition: all 0.9s ease-in-out 0s;
-}
-.question-icon>a>p{
-  position:absolute;
-  top:170px;
-  font-size:25px;
-  left:18%;
-}
-
-.q-answer{
+q.answer{
   padding-top:20px;
 }
+
 .faq-nav{
 	box-shadow:0 1px 14px rgba(0,0,0,0.1);
 	font-family:"Boing",sans-serif;
 	height:60px;
-  padding-left:24%;
+
 	position:relative;
 	z-index:10
 	}
+  .faq-nav>div>div>div>.faqss{
+      padding-left:24%;
+  }
 
 /*responsive*/
 @media screen and (max-width: 600px){
@@ -575,10 +546,19 @@ span.clients-name {
     margin-top:3vh;
   }
   #myNavbar{
-    background-color: #888;
+      width:100vw;
   }
+  #myNavbar>ul>li{
+    width:60vw;
+    padding-left: 10vw;
+  }
+  #myNavbar>ul>li:hover{
+    color:black;
+  }
+
   #myTopnav:hover{
     background-color: #888;
+
   }
   .question-icon{
     display:block;
