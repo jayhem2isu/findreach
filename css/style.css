@@ -36,7 +36,9 @@ a:focus {
   background: #2d292a url(../img/intro-bg.jpg) no-repeat center center;
   background-size: cover;
   min-height: 100vh;
+  overflow:visible;
 }
+
 .intro-message {
   position: relative;
   top:237px;
@@ -126,6 +128,7 @@ keyframes inf-bounce {
   padding: 10px 10px;
 }
 .banner {
+  width:100%;
   padding: 20px 0 0;
   color: #fff;
   background: #b1b5b8;
@@ -137,7 +140,7 @@ keyframes inf-bounce {
 .banner h3 {
   color: #000;
 }
-.banner .container {
+.banner {
   overflow: hidden;
   padding-bottom: 50px;
 }
@@ -239,9 +242,13 @@ p.copyright {
   position: relative;
 }
 .abs-phone img {
+
   position: absolute;
   bottom: -20em;
   right: -20px;
+}
+.together{
+  position:relative;
 }
 
 
@@ -956,3 +963,9 @@ blockquote:hover{
 	@keyframes bounce{
 		from,to{transform:translateY(0)}50%{transform:translateY(-10px)}
 		}
+
+    @media (min-width:1125px) and (max-width:1290px) {
+      .point>img {
+        width: 160px;
+      }
+    }

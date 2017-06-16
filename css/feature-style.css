@@ -692,7 +692,7 @@ a.click:hover{
 }
 /*responsive*/
 @media screen and (max-width: 600px){
-  
+
   .navbar-toggle{
     margin-top:3vh;
   }
@@ -918,7 +918,9 @@ a.click:hover{
 }
 
 
-
+.footer{
+  text-align: center;
+}
 
 
 
@@ -1174,11 +1176,48 @@ a.click:hover{
 
 
 }
-@media(max-width:1199px){
+@media (min-width:768px) and (max-width:1299px){
+  .android{
+    position:absolute;
+    top:95px;
+    right: 40px;
+  }
+}
+
+@media (min-width:1125px) and (max-width:1890px){
+
+  .this-header{
+    color:white;
+    position:absolute;
+    top:237px;
+    left:176px;
+    width:35vw;
+  }
+
 
 }
-@media screen and (max-width: 600px){
+@media (min-width:1125px) and (max-width:1290px) {
+  .point>img {
+    width: 160px;
+  }
+}
+@media (min-width:700px) and (max-width:1124px) {
+  .point>img {
+    width: 130px;
+  }
+}
 
+@media (min-width:992px) and (max-width: 1125px){
+  .main-button{
+    position: absolute;
+    top:417px;
+    left:176px;
+    font-size:1.3em;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 @media screen and (max-width: 750px){
 
