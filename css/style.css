@@ -11,7 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family:"AvenirNext" "AvenirMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AvenirMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 p {
   color: #888;
@@ -26,6 +26,30 @@ a:focus {
 .topnav {
   font-size: 17px;
   padding: 0.8em 0;
+}
+.menu:visited{
+	 background-color: transparent;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none
+}
+.menu:active{
+	background-color: transparent;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none
+}
+.nav>li>a:active{
+	 background-color: transparent;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none
+}
+.menu>a:visited{
+	 background-color: transparent;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none
 }
 .lead {
   font-size: 18px;
@@ -969,3 +993,17 @@ blockquote:hover{
         width: 160px;
       }
     }
+	
+/*ghana launch*/
+
+.ghana-babe{
+	position:fixed;
+	top:18vh;
+	height:18vh;
+	left:90vw;
+	animation-name:walk;
+	animation-duration: 20s;
+	animation-delay:2s;
+	animation-iteration-count: infinite;
+}
+
